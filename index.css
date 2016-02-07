@@ -1,0 +1,46 @@
+.User-List{
+	list-style: none;
+}
+
+.Avatar{
+	text-align: center;
+}
+
+li{
+	display: inline-block;
+	margin-right: 50px;
+}
+
+#starWarsFont{
+	font-family: STARWARS;
+	color: gold;
+}
+
+h1{
+	font-size: 60;
+}
+
+.Avatar img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.Avatar h4{
+	text-transform: capitalize;
+}
+
+body{
+	background-image: url("https://i.ytimg.com/vi/voWpbz1De_M/maxresdefault.jpg");
+	background-size: cover;
+}
+
+@font-face {
+	font-family:"STARWARS";
+	src: url("../angularlab/starWarsFont/STARWARS.eot?") format("eot"),
+	url("../angularlab/starWarsFont/STARWARS.woff") format("woff"),
+	url("../angularlab/starWarsFont/STARWARS.ttf") format("truetype"),
+	url("../angularlab/starWarsFont/STARWARS.svg#STARWARS") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
