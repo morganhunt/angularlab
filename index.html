@@ -9,13 +9,13 @@
 </head>
 <body>
 	<div id="starWarsFont" ng-app='app' ng-controller='mainCtrl'>
-		<h1>Create Force User</h1>
+		<h1>CREATE FORCE USER</h1>
 		<form name='userForm' ng-submit='addNew(userForm)'>
 			<input placeholder='Name' ng-model='userForm.name'/>
 			<input placeholder='Image Url' ng-model='userForm.url'/>
 			<button type='submit'>Add New Force User</button>
 		</form>
-		<button ng-click='addRandom()'>Add Random Force User</button>
+		<button id="randomButton" ng-click='addRandom()'>Add Random Force User</button>
 
 		<ul class='User-List'>
 			<li ng-repeat='person in users track by $index'>
